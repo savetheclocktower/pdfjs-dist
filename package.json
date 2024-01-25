@@ -12,6 +12,9 @@
   "homepage": "http://mozilla.github.io/pdf.js/",
   "bugs": "https://github.com/mozilla/pdf.js/issues",
   "license": "Apache-2.0",
+  "optionalDependencies": {
+    "path2d-polyfill": "^2.0.1"    
+  },
   "browser": {
     "canvas": false,
     "fs": false,
